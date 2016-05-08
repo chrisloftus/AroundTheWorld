@@ -21,7 +21,7 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 1,
     'name': 'Manchester United',
-    'image': 'http://therepublikofmancunia.com/wp-content/uploads/2010/07/Shirts_Cantona.jpg',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/manchester-united.png',
     'options': [
       'Charlton Athletic', 'Liverpool', 'Manchester United', 'Middlesborough'
     ]
@@ -29,7 +29,7 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 2,
     'name': 'Southampton',
-    'image': 'http://www2.pictures.zimbio.com/gi/Morgan+Schneiderlin+Southampton+v+West+Bromwich+oyyuJjb1O0Fl.jpg',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/southampton.png',
     'options': [
       'Sunderland', 'Stoke City', 'Sheffield United', 'Southampton'
     ]
@@ -37,7 +37,7 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 3,
     'name': 'Newcastle United',
-    'image': 'https://gms.cachefly.net/images/29ed35a9088c6d664046fa93be64a93b/960.jpg',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/newcastle-united.png',
     'options': [
       'Juventus', 'Atletico Mineiro', 'Newcastle United', 'St Mirren'
     ]
@@ -45,7 +45,7 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 4,
     'name': 'Chelsea',
-    'image': 'http://i.dailymail.co.uk/i/pix/2015/06/23/12/0354DD2C0000044D-3135808-image-m-16_1435059265751.jpg',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/chelsea.png',
     'options': [
       'Birmingham City', 'Leicester City', 'Chelsea', 'Everton'
     ]
@@ -53,7 +53,7 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 5,
     'name': 'Porto',
-    'image': 'https://s-media-cache-ak0.pinimg.com/736x/aa/4b/94/aa4b94ad1fb9a0dd13c4c7b729637626.jpg',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/porto.png',
     'options': [
       'Real Sociedad', 'Espanyol', 'Deportivo La Coruna', 'Porto'
     ]
@@ -61,7 +61,7 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 6,
     'name': 'Manchester City',
-    'image': 'http://content.mcfc.co.uk/~/media/Images/Home/News/Team%20News/2011-2012%20Season/Away%20Games/Tottenham%2028%20Aug%202011/Edin%20dzeko%20celebrates.ashx?w=0&h=0&as=1',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/manchester-city.png',
     'options': [
       'Bournemouth', 'Manchester City', 'Brighton & Hove Albion', 'AC Milan'
     ]
@@ -69,7 +69,7 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 7,
     'name': 'Cardiff City',
-    'image': 'http://www2.pictures.zimbio.com/gi/Craig+Bellamy+Cardiff+City+v+Huddersfield+zLED43T5mCol.jpg',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/cardiff-city.png',
     'options': [
       'Middlesborough', 'Charlton Athletic', 'Rotherham', 'Cardiff City'
     ]
@@ -77,9 +77,25 @@ var MOCKED_CLUBS_DATA = [
   {
     'id': 8,
     'name': 'Fulham',
-    'image': 'http://img.thesun.co.uk/aidemitlum/archive/01818/ParkerS_1818154a.jpg',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/fulham.png',
     'options': [
       'Fulham', 'Tottenham Hotspur', 'Derby County', 'Bolton Wanderers'
+    ]
+  },
+  {
+    'id': 9,
+    'name': 'Leeds United',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/leeds-united.png',
+    'options': [
+      'Tottenham Hotspur', 'Leeds United', 'Real Madrid', 'Swansea City'
+    ]
+  },
+  {
+    'id': 10,
+    'name': 'Hull City',
+    'image': 'http://s3-eu-west-1.amazonaws.com/aroundtheworld.dev/hull-city.png',
+    'options': [
+      'Hull City', 'Boston United', 'Wolverhampton Wanderers', 'Barnet'
     ]
   },
 ];
